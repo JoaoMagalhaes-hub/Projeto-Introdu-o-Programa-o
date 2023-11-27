@@ -6,17 +6,17 @@
     <ul>
       {% for todo in todos %}
       <li>
-        <input type="checkbox" name="done" {% if todo['done'] %}checked{% endif %} onchange="this.form.submit()">
+        <input type="checkbox" name="done" maxlength="20" {% if todo['done'] %}checked{% endif %} onchange="this.form.submit()">
         <span {% if todo['done'] %}style="text-decoration: line-through"{% endif %}>{{ todo['task'] }}</span>
-        <a href="{{ url_for('edit', index=loop.index0) }}">edit</a>
-        <a href="{{ url_for('delete', index=loop.index0) }}">delete</a>
+        <button class="botao-edit"><a href="{{ url_for('edit', index=loop.index0) }}">Edit</a></button>
+        <button class="botao-del"><a href="{{ url_for('delete', index=loop.index0) }}">Delete</a></button>
       </li>
       {% endfor %}
     </ul>
     <form action="{{ url_for('add') }}" method="post">
       <input type="text" name="todo">
-      <button type="submit">Add</button>
+      <button type="submit" class="botao-adicionar">Add</button>
     </form>
   </div>
-
+<button></button>
 {% endblock %}
