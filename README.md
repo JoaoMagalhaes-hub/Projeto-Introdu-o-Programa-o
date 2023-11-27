@@ -7,10 +7,10 @@ Aqui está o repositório do nosso projeto da matéria de Introdução a Program
     Professor:
         Messias Batista
     Integrantes:
-        Lucas Viana.
-        Nicollas Garibaldi.
-        João Gabriel.
-        Gabriel Brandão.
+        Lucas Viana [DEV Git]
+        Nicollas Garibaldi [Scrum Master]
+        João Gabriel. [Back-End]
+        Gabriel Brandão. [Front]
 
 Tecnologias usadas:
 
