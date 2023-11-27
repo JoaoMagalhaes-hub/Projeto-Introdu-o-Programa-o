@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Playfair+Display:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* css geral*/
+#conteudo{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* css dos paineis*/
+.sobreDevs{
+    width: 270px;
+    height: 500px;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 17px;
+}
+
+.sobreDevs:nth-of-type(1){
+    background-color:rgb(255, 255, 255) ;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.sobreDevs:nth-of-type(2){
+    background-color:rgb(255, 255, 255) ;
+}
+
+.sobreDevs:nth-of-type(3){
+    background-color:rgb(255, 255, 255) ;
+}
+
+.sobreDevs:nth-of-type(4){
+    background-color:rgb(255, 255, 255) ;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+ }
+
+/* css da imagem*/
+.sobreDevs img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+/* css dos textos*/
+.texto{
+    text-align: center;
+    padding: 18px 5px;
+    color:rgb(255, 255, 255)
+}
+
+.texto h2{
+    color: rgb(0, 0, 0)
+}
+
+.texto p{
+    font-size: 13px;
+    padding-top: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.texto a{
+    color: inherit;
+    text-decoration: none;
+    color: rgb(0, 0, 0);  
+    text-decoration: underline;
+}
